@@ -4,6 +4,8 @@ import { usePeliculasContext } from "./Layout"
 function AgregarPelicula() {
 
   const [ peliculas, setPeliculas ] = usePeliculasContext()
+  console.log({ peliculas })
+  console.log({ setPeliculas })
 
   let historia = []
 

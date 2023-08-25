@@ -52,8 +52,6 @@ function FormularioPelicula(props) {
   const handleInputChange = (event) => {
     
     const { name, value } = event.target
-    console.log({ name })
-    console.log({ value })
     switch (name) {
       case 'nombre':
         if (value === '' || value.length > 0) {

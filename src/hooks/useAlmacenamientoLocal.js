@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 function useAlmacenamientoLocal( clave, valorInicial ) {
-
   const [valor, setValor] = useState(() => {
     try {
       const localStorageCustom = window.localStorage.getItem(clave)
