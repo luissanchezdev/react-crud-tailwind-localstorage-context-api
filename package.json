@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.28",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "tailwindcss": "^3.3.3",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -22,5 +28,18 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luissanchezdev/react-crud-tailwind-localstorage-context-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luissanchezdev/react-crud-tailwind-localstorage-context-api/issues"
+  },
+  "homepage": "https://github.com/luissanchezdev/react-crud-tailwind-localstorage-context-api#readme"
 }
